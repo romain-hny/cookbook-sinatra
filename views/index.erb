@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> My Cookbook </title>
+    <link rel="stylesheet" href="/application.css">
+  </head>
+    <body>
+      <h1>My cookbook</h1>
+        <ul>
+        <% @recipes.each_with_index do |recipe, index| %>
+          <li> <%= "#{index + 1}. #{recipe.name} : #{recipe.description}"%> <a href="" action="/destroy" method="post"> </li>
+          <% end %>
+        </ul>
+        <a href="http://localhost:4567/new">Create a new recipe</a>
+    </body>
+  </html>

@@ -1,0 +1,34 @@
+ul
+{
+  color: red;
+}
+
+h1
+{
+	text-align: left;
+	font-weight:  bold;
+}
+
+a:hover
+{
+	color: blue;
+	filter: brightness(1.0); /* assombri l'image, joue sur la luminosité */
+	filter: grayscale(1); /* met l'image en gris */
+}
+
+form.form-example {
+  display: table;
+}
+
+div.form-example {
+  display: table-row;
+}
+
+label, input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}

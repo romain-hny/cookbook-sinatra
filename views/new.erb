@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Add a recipe </title>
+    <link rel="stylesheet" href="/application.css">
+  </head>
+    <body>
+      <form action="/recipes" method="post" class="form-example">
+        <div class="form-example">
+          <label for="name">Enter your recipe name: </label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form-example">
+          <label for="email">Enter your recipe description: </label>
+            <input type="text" name="description" id="description" required>
+        </div>
+        <div class="form-example">
+          <input type="submit" value="Create the recipe">
+        </div>
+      </form>
+    </body>
+  </html>
